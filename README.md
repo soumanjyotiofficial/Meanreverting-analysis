@@ -1,4 +1,4 @@
-# Meanreverting-level-analysis
+# Mean Reversion Analysis of Reliance Returns Using Time Series Data
 
     
 
