@@ -1,11 +1,11 @@
 # Mean Reversion Analysis of Reliance Returns Using Time Series Data
 
-    
+This project aims to analyze whether the 1-minute time frame returns of Reliance stock are mean-reverting by checking if the data is stationary. Three tests are used to check the stationarity of the time series:
 
 
 # Stationarity Tests
 
-We use three different tests to analyze the stationarity of the time series:
+Used three different tests to analyze the stationarity of the time series:
 - Augmented Dickey-Fuller (ADF) Test
 - Kwiatkowski-Phillips-Schmidt-Shin (KPSS) Test
 - Phillips-Perron (PP) Test
