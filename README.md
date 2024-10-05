@@ -41,7 +41,9 @@ List of required libraries:
 ```bash
 pip install pandas matplotlib  statsmodels arch
 ```
+
 ## Imports
+
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -50,7 +52,9 @@ from arch.unitroot import PhillipsPerron
 from statsmodels.tsa.stattools import kpss
 from statsmodels.tsa.stattools import adfuller
 ```
+
 ## Loading data
+
 ```python
 df = pd.read_csv('reliance.csv')
 df['return'] = df['RELIANCE-EQ'].pct_change()
@@ -73,7 +77,7 @@ test_ = {} #blank dict to store result
 ```
 ## Augmented Dickey-Fuller (ADF) Test (Test-1)
 The ADF test checks for the presence of a unit root in the time series. The null hypothesis assumes there is a unit root (non-stationary data), and the alternative hypothesis assumes the data is stationary.
-```
+
 
 ```python
 from statsmodels.tsa.stattools import adfuller
